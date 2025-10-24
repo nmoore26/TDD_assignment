@@ -1,4 +1,4 @@
-from item import *
+from item.py import *
 
 def test_item():
   orange = Item("orange", 0.50, 20)
