@@ -1,3 +1,4 @@
+from item import *
 def test_item():
   orange = Item("orange", 0.50, 20)
   assertEquals(item.str(),"orange $0.50 $20")
