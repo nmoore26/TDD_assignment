@@ -3,5 +3,5 @@ class Item:
     self.name = name
     self.price = price
     self.count = count
-  def __str__(self):
+  def __str__(self,name,price,count):
     print(f'{name} ${price} {count}')
