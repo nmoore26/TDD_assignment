@@ -5,7 +5,7 @@ class Item:
         self.count = count
 
     def __str__(self):
-        return f"{self.name} ${self.price} {self.count}"
+        return f"{self.name} ${self.price:.2f} {self.count}"
 
     def display(self):
         return self.name
