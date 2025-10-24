@@ -4,4 +4,7 @@ class Item:
     self.price = price
     self.count = count
   def __str__(self):
-    print(f'{self.name} ${self.price} {self.count}')
+    return f"{self.name} ${self.price} {self.count}"
+  
+  def display_name():
+    return self.name
