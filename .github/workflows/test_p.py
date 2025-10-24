@@ -6,5 +6,5 @@ def test_item():
 
 def tes_display_name():
   strawberry = Item("strawberry", 0.70, 35)
-  assert strawberry.display_name() == "strawberry"
+  assert strawberry.display() == "strawberry"
 
